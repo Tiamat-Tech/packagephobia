@@ -8,11 +8,11 @@
 
 - ⚖️ Find the cost of adding a new dependency to your project
 - 🕗 Save yourself time and disk space with this web app
-- 📈 Detect javascript bloat over time with a chart
+- 📈 Detect JavaScript bloat over time with a chart
 - 🛡️ Get a badge/shield for your README
-- 📡 Fetch size from json API to integrate into any tool
+- 📡 Fetch size from JSON API to integrate into any tool
 
-*...as seen on [AWS Developer Tools Blog](https://aws.amazon.com/blogs/developer/how-we-halved-the-publish-size-of-modular-aws-sdk-for-javascript-clients/) and [npm weekly](https://medium.com/npm-inc/87f3bd77529#1883) and [ponyfoo weekly](https://ponyfoo.com/weekly/111/how-css-works-integration-testing-angular-6-optimizing-react-and-the-future-of-javascript) and [habr](https://habr.com/company/zfort/blog/354060/) and [rwpod](https://www.rwpod.com/posts/2018/04/23/podcast-06-16.html) and [wolf report](https://michael-wolfenden.github.io/2018/04/20/april-20th-2018/) and [the changelog](https://changelog.com/news/find-the-cost-of-adding-a-new-dependency-to-your-project-gbj6) and all over twitter*
+*...as seen on [AWS Developer Tools Blog](https://aws.amazon.com/blogs/developer/how-we-halved-the-publish-size-of-modular-aws-sdk-for-javascript-clients/) and [npm weekly](https://medium.com/npm-inc/87f3bd77529#1883) and [ponyfoo weekly](https://ponyfoo.com/weekly/111/how-css-works-integration-testing-angular-6-optimizing-react-and-the-future-of-javascript) and [habr](https://habr.com/company/zfort/blog/354060/) and [rwpod](https://www.rwpod.com/posts/2018/04/23/podcast-06-16.html) and [wolf report](https://michael-wolfenden.github.io/2018/04/20/april-20th-2018/) and [the changelog](https://changelog.com/news/find-the-cost-of-adding-a-new-dependency-to-your-project-gbj6) and all over Twitter*
 
 ## What is the purpose?
 
@@ -58,22 +58,22 @@ Package Phobia is inspired by [Bundle Phobia](https://github.com/pastelsky/bundl
 - [Bundle Phobia](https://bundlephobia.com) web app that reports the size after webpack bundles the package over time.
 - [Bundle.js](https://bundlejs.com) web app that reports the size after esbuild bundles the custom code snippet.
 - [Pkg-Size](https://pkg-size.dev) web app that reports the size after esbuild bundles one or more packages.
-- [Cost Of Modules](https://github.com/siddharthkp/cost-of-modules) cli that reports the size of your currently installed packages.
-- [Badge Size](https://github.com/ngryman/badge-size) badge service that reports the gzip size of a single file from a package as svg.
-- [Size Limit](https://github.com/ai/size-limit) cli that fails if the bundled (or non-bundled) size of your app is too large.
-- [Bundle Size](https://github.com/siddharthkp/bundlesize) cli that fails CI if a file's size is too large.
-- [Package Size](https://github.com/egoist/package-size) cli that compares the bundle size of multiple packages.
-- [npm Size](https://github.com/egoist/npm-size) cli that compares the npm install size of multiple packages.
-- [Require So Slow](https://github.com/ofrobots/require-so-slow) cli that traces the time of each `require` module in a node.js app.
-- [Why Bundled?](https://github.com/d4rkr00t/whybundled) cli that uses webpack stats to show your number of imports and package size.
-- [Do you even lift?](https://github.com/npm/do-you-even-lift) - cli that reports size after rollup bundles the package via npm team.
-- [Import Cost](https://github.com/wix/import-cost) extension (and cli) that displays package size inline in the editor.
+- [Cost Of Modules](https://github.com/siddharthkp/cost-of-modules) CLI that reports the size of your currently installed packages.
+- [Badge Size](https://github.com/ngryman/badge-size) badge service that reports the gzip size of a single file from a package as SVG.
+- [Size Limit](https://github.com/ai/size-limit) CLI that fails if the bundled (or non-bundled) size of your app is too large.
+- [Bundle Size](https://github.com/siddharthkp/bundlesize) CLI that fails CI if a file's size is too large.
+- [Package Size](https://github.com/egoist/package-size) CLI that compares the bundle size of multiple packages.
+- [npm Size](https://github.com/egoist/npm-size) CLI that compares the npm install size of multiple packages.
+- [Require So Slow](https://github.com/ofrobots/require-so-slow) CLI that traces the time of each `require` module in a Node.js app.
+- [Why Bundled?](https://github.com/d4rkr00t/whybundled) CLI that uses webpack stats to show your number of imports and package size.
+- [Do you even lift?](https://github.com/npm/do-you-even-lift) - CLI that reports size after rollup bundles the package via npm team.
+- [Import Cost](https://github.com/wix/import-cost) extension (and CLI) that displays package size inline in the editor.
 - [npm Download Size](https://github.com/arve0/npm-download-size) web app that reports the download size (network traffic) of a package.
-- [npm Download Size cli](https://github.com/arve0/npm-download-size-cli) cli that reports the download size (network traffic) of a package.
+- [npm Download Size cli](https://github.com/arve0/npm-download-size-cli) CLI that reports the download size (network traffic) of a package.
 - [Build Size](https://github.com/Daniel15/BuildSize) - GitHub App that comments on a PR with the size of your build artifacts
 - [Pkg Size](http://pkgsize.com) - web app that displays package size and file count over time (static data only)
-- [BundleWatch](https://github.com/bundlewatch/bundlewatch) - cli that checks if your bundle exceeds a specific size and also tracks increase
-- [PackWatch](https://github.com/mcataford/packwatch) - cli that checks if your package tarball exceeds a specific size and also tracks increase
+- [BundleWatch](https://github.com/bundlewatch/bundlewatch) - CLI that checks if your bundle exceeds a specific size and also tracks increase
+- [PackWatch](https://github.com/mcataford/packwatch) - CLI that checks if your package tarball exceeds a specific size and also tracks increase
 
 ## Why is the size different than size on disk?
 
